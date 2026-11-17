@@ -567,4 +567,6 @@ and call tracing.
 Scripts, the e2e suite (`pnpm test:e2e`, or `--no-docker` for local testing)
 and release steps: see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+----
+
 Maintained by [Hella Labs](https://hella.website/) · MIT
