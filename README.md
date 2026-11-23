@@ -7,6 +7,7 @@
 <a href="https://www.npmjs.com/package/@hellaweb3/foundryanvil-testcontainers-nodejs"><img alt="npm version" src="https://img.shields.io/npm/v/%40hellaweb3%2Ffoundryanvil-testcontainers-nodejs" /></a>
 <a href="https://www.npmjs.com/package/@hellaweb3/foundryanvil-testcontainers-nodejs"><img alt="npm downloads" src="https://img.shields.io/npm/dy/%40hellaweb3%2Ffoundryanvil-testcontainers-nodejs" /></a>
 <a href="https://hellalabs.dev/foundryanvil-testcontainers-nodejs/"><img alt="Documentation" src="https://img.shields.io/badge/docs-task%20guides%20%26%20API-c2410c" /></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fhella-labs%2Ffoundryanvil-testcontainers-nodejs?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhella-labs%2Ffoundryanvil-testcontainers-nodejs.svg?type=shield"/></a>
 
 **[📖 Documentation](https://hellalabs.dev/foundryanvil-testcontainers-nodejs/)** ·
 [Quick start](https://hellalabs.dev/foundryanvil-testcontainers-nodejs/docs/get-started/quick-start) ·
@@ -151,3 +152,7 @@ the docs site (`pnpm docs:start`) and release steps: see
 ----
 
 Maintained by [Hella Labs](https://hellalabs.dev/) · MIT
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhella-labs%2Ffoundryanvil-testcontainers-nodejs.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhella-labs%2Ffoundryanvil-testcontainers-nodejs?ref=badge_large)
