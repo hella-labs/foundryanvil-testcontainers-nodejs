@@ -95,4 +95,4 @@ pnpm gate            # everything, with a local anvil binary
 pnpm check:docker    # everything, with Docker (as CI)
 ```
 
-See [CONTRIBUTING](https://github.com/hella-labs/foundryanvil-testcontainers-nodejs/blob/main/CONTRIBUTING.md).
+See [CONTRIBUTING](https://github.com/hella-labs/foundryanvil-testcontainers-nodejs/blob/main/.github/CONTRIBUTING.md).

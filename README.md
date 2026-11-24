@@ -146,7 +146,7 @@ and call tracing. They are the source of every code sample in the
 
 Scripts, the e2e suite (`pnpm test:e2e`, or `--no-docker` for local testing),
 the docs site (`pnpm docs:start`) and release steps: see
-[CONTRIBUTING.md](./CONTRIBUTING.md).
+[CONTRIBUTING.md](./.github/CONTRIBUTING.md).
 
 ----
 
