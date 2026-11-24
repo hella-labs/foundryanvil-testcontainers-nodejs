@@ -26,8 +26,8 @@
     "node": ">=22"
   },
   "dependencies": {
-    "testcontainers": "^12.2.0",
-    "viem": "2.57.1"
+    "testcontainers": "^12.2.2",
+    "viem": "^2.58.4"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
