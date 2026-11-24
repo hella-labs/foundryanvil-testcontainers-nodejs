@@ -1,0 +1,84 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please search existing issues before submitting.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide the smallest complete example or steps needed to reproduce the problem.
+      placeholder: |
+        1. Configure an AnvilContainer with ...
+        2. Run ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Minimal code sample
+      description: Include runnable TypeScript and test setup where applicable.
+      render: typescript
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Logs and error output
+      description: Paste relevant logs or stack traces. Remove credentials and private endpoints.
+      render: shell
+
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: "0.7.1"
+    validations:
+      required: true
+
+  - type: input
+    id: node
+    attributes:
+      label: Node.js version
+      placeholder: "22.x"
+    validations:
+      required: true
+
+  - type: input
+    id: runtime
+    attributes:
+      label: Docker-compatible runtime
+      placeholder: "Docker Desktop 4.x, Podman 5.x, or local Anvil"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Operating system and additional environment
+      placeholder: "macOS 15 / arm64"
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues.
+          required: true
+        - label: I removed secrets and private data from this report.
+          required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://hellalabs.dev/foundryanvil-testcontainers-nodejs/
+    about: Read task guides and the API reference.
+  - name: Security vulnerability
+    url: https://github.com/hella-labs/foundryanvil-testcontainers-nodejs/security/advisories/new
+    about: Report a vulnerability privately through GitHub Security Advisories.

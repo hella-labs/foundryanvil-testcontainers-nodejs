@@ -148,6 +148,10 @@ Scripts, the e2e suite (`pnpm test:e2e`, or `--no-docker` for local testing),
 the docs site (`pnpm docs:start`) and release steps: see
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md).
 
+For support options, see [SUPPORT.md](./SUPPORT.md). To report a security
+vulnerability privately, follow [SECURITY.md](./SECURITY.md). Community
+behavior is governed by [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
+
 ----
 
 Maintained by [Hella Labs](https://hellalabs.dev/) · MIT
