@@ -68,6 +68,7 @@
     "docs:lint": "node scripts/docs.mjs lint",
     "docs:unit": "node scripts/docs.mjs unit",
     "docs:e2e": "node scripts/docs.mjs e2e",
+    "setup:all": "pnpm install && pnpm examples:setup && pnpm docs:setup",
     "gate": "pnpm build && pnpm lint && pnpm typecheck && pnpm test:unit --coverage && pnpm test:e2e --no-docker && pnpm examples:e2e --no-docker && pnpm examples:unit --coverage && pnpm docs:unit --coverage && pnpm docs:e2e --no-docker --skip-examples",
     "check:local": "pnpm gate",
     "check:docker": "pnpm build && pnpm lint && pnpm typecheck && pnpm test:unit --coverage && pnpm test:e2e && pnpm examples:e2e && pnpm examples:unit --coverage && pnpm docs:unit --coverage && pnpm docs:e2e --skip-examples"

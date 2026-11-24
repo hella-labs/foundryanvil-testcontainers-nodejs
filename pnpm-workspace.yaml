@@ -11,10 +11,3 @@ allowBuilds:
   protobufjs: true
   ssh2: true
   unrs-resolver: true
-
-# TODO: bump viem to ^2.57.20 and testcontainers to ^12.2.1 (package.json and
-# examples/package.json, then the lockfiles) once the sandbox registry mirror
-# serves them (viem 2.57.20 needs ox 0.14.67). They are pinned to the newest
-# patch releases the mirror can install so `pnpm gate` runs identically in
-# the sandbox, in CI and on developer machines. Guarded by
-# test/unit/helpers/dependency-pins.test.ts.
