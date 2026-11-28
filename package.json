@@ -79,7 +79,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@foundry-rs/anvil": "1.6.0-rc1",
+    "@foundry-rs/anvil": "1.7.1",
     "@swc/core": "^1.16.22",
     "@swc/jest": "^0.2.39",
     "@types/jest": "^30.0.0",
